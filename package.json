@@ -2,7 +2,6 @@
   "name": "mocaliza",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "src/main.js",
   "scripts": {
     "dev": "nodemon",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/Robson-Osuna/Mocaliza#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "sequelize": "^6.33.0",
     "sqlite3": "^5.1.6"
   },
   "devDependencies": {
